@@ -37,7 +37,7 @@ lp
 % PLOTTING
 % Limits of axis in time and spectrum.
 % xlim - time (s)
-1
+0.05
 % ylim - amplitude (a.u.)
 1
 % frequency on linear or log axis?
