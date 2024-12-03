@@ -2,9 +2,9 @@
 % Use input signal or generated signal? Possible: wav, generate
 wav
 % WAV-filename
-animal_call.wav
+sweep_0_20000.wav
 % Target sampling frequency (Hz) of the .wav file
-10000
+40000
 % SIGNAL GENERATOR
 % Type of signal. Possible: rect, tone, tone-complex, noise
 tone
@@ -31,9 +31,9 @@ fir
 % Approximation method. Possible: butterworth, chebychevI, chebychevII, cauer
 butterworth
 % type. Possible: lp, hp, bp, bs
-bp
+bs
 %cut-off frequency/-ies (Hz)
-1000, 4000
+6000, 14000
 % PLOTTING
 % Limits of axis in time and spectrum.
 % xlim - time (s)
