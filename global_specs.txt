@@ -11,11 +11,11 @@ tone
 % Sampling frequency (Hz)
 20000
 % Overall duration of the signal (in s)
-4 
+4
 % Periodicity (s) - only applicable for "rect". The width of each rectangle should be half the period. 
 0.5
 % Frequency/-ies of the tone/tone complex (only first if 'tone'
-500, 200, 300, 400
+2500, 200, 300, 400
 % FREQUENCY ANALYSIS
 % Spectral resolution (Hz)
 1
@@ -31,7 +31,7 @@ fir
 % Approximation method. Possible: butterworth, chebychevI, chebychevII, cauer
 butterworth
 % type. Possible: lp, hp, bp, bs
-lp
+hp
 %cut-off frequency/-ies (Hz)
 50
 % PLOTTING
