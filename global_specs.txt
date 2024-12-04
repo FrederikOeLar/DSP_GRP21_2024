@@ -27,13 +27,13 @@ rect
 % Use FIR or IIR?
 fir
 % filter order
-10
+8
 % Approximation method. Possible: butterworth, chebychevI, chebychevII, cauer
 butterworth
 % type. Possible: lp, hp, bp, bs
 bs
 %cut-off frequency/-ies (Hz)
-6000, 14000
+8000, 14000
 % PLOTTING
 % Limits of axis in time and spectrum.
 % xlim - time (s)
