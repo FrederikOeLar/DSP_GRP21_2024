@@ -33,7 +33,7 @@ butterworth
 % type. Possible: lp, hp, bp, bs
 lp
 %cut-off frequency/-ies (Hz)
-1000
+900
 % PLOTTING
 % Limits of axis in time and spectrum.
 % xlim - time (s)
